@@ -135,6 +135,10 @@ body{
 .FirstElement .profile-photo img {
   transform: translateY(-45px);
 }
+.FirstElement .profile-photo img {
+    transform: scale(1.10); /* slight zoom-in */
+    transition: 0.3s ease-in-out;
+}
 
 profile-photo .img{
   height: 100%;
