@@ -133,10 +133,10 @@ body{
   
 }
 .FirstElement .profile-photo img {
-  transform: translateY(-45px);
+  transform: translateY(-70px);
 }
 .FirstElement .profile-photo img {
-    transform: scale(1.03); /* slight zoom-in */
+    transform: scale(1.05); /* slight zoom-in */
     transition: 0.3s ease-in-out;
 }
 
