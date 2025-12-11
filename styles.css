@@ -130,8 +130,8 @@ body{
   box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.5)
 }
 profile-photo .img{
-  height: 140%;
-  width: 140%;
+  height: 100%;
+  width: 100%;
   transition: 0.5s;
 }
 .FirstElement .profile-photo img:hover{
