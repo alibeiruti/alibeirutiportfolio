@@ -133,7 +133,7 @@ body{
   
 }
 .FirstElement .profile-photo img {
-  transform: translateY(-15px);
+  transform: translateY(-35px);
 }
 
 profile-photo .img{
