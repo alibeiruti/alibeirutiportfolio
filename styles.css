@@ -132,6 +132,10 @@ body{
   margin-top: -20px;
   
 }
+.FirstElement .profile-photo img {
+  transform: translateY(-15px);
+}
+
 profile-photo .img{
   height: 100%;
   width: 100%;
