@@ -129,6 +129,8 @@ body{
   border: 15px solid #444444;
   box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.5);
   transform: translateX(200px); /* move circle to the right */
+  margin-top: -20px;
+  
 }
 profile-photo .img{
   height: 100%;
