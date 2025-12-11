@@ -136,7 +136,7 @@ body{
   transform: translateY(-100px);
 }
 .FirstElement .profile-photo img {
-    transform: scale(1.09); /* slight zoom-in */
+    transform: scale(1.10); /* slight zoom-in */
     transition: 0.3s ease-in-out;
 }
 
@@ -146,7 +146,7 @@ profile-photo .img{
   transition: 0.5s;
 }
 .FirstElement .profile-photo img:hover{
-  transform: scale(1.2);
+  transform: scale(1.25);
 }
 .profile-text{
   max-width: 750px;
