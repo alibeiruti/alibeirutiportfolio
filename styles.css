@@ -121,6 +121,10 @@ body{
   padding-top: 40px; 
 }
 
+.FirstElement .profile-photo img {
+  transform: translateY(-100px);
+}
+
 .FirstElement .profile-photo{
   width: 450px;
   height:  450px;
@@ -132,9 +136,7 @@ body{
   margin-top: -30px;
   
 }
-.FirstElement .profile-photo img {
-  transform: translateY(-100px);
-}
+
 .FirstElement .profile-photo img {
     transform: scale(1.12); /* slight zoom-in */
     transition: 0.3s ease-in-out;
