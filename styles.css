@@ -543,3 +543,6 @@ profile-photo .img{
   }
 
 }
+.profile-text .social i {
+    font-size: 28px;
+}
