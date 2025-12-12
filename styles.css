@@ -129,11 +129,12 @@ body{
   border: 15px solid #444444;
   box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.5);
   transform: translateX(200px); /* move circle to the right */
-  transform: translateY(-100px);
   margin-top: -30px;
   
 }
-
+.FirstElement .profile-photo img {
+  transform: translateY(-100px);
+}
 .FirstElement .profile-photo img {
     transform: scale(1.12); /* slight zoom-in */
     transition: 0.3s ease-in-out;
