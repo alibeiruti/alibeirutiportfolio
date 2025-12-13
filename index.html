@@ -4,25 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ali Beiruti</title>
+<meta name="description" content="Ali Beiruti — Professional with a strong foundation in territory strategy, provider engagement, and data-driven execution.">
+<link rel="icon" href="https://i.ibb.co/zRsTj3p/Frame-1-37.png">
 
-    <!-- BASIC META -->
-    <title>Ali Beiruti</title>
-    <meta name="description" content="Ali Beiruti — Commercially driven pharmaceutical sales professional focused on territory strategy, provider engagement, and data-driven execution.">
-
-    <!-- OPEN GRAPH (LINK PREVIEW FIX) -->
-    <meta property="og:title" content="Ali Beiruti">
-    <meta property="og:description" content="Commercially driven pharmaceutical sales professional specializing in territory strategy, provider engagement, and data-driven execution.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://alibeiruti.com">
-    <meta property="og:image" content="https://alibeiruti.com/files/signaturecropped.png">
-
-    <!-- TWITTER (OPTIONAL BUT GOOD) -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Ali Beiruti">
-    <meta name="twitter:description" content="Commercially driven pharmaceutical sales professional specializing in territory strategy and provider engagement.">
-    <meta name="twitter:image" content="https://alibeiruti.com/files/signaturecropped.png">
-
-    <link rel="icon" href="https://i.ibb.co/zRsTj3p/Frame-1-37.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -80,7 +65,7 @@
     </div>
 </div>
 
-<!-------------------------- About -------------------------->
+<!-------------------------- About Section -------------------------->
 <section class="about-area" id="about">
     <div class="container">
         <div class="about">
@@ -89,8 +74,11 @@
                 <ul>
                     <li>
                         I am a commercially driven sales professional with a strong foundation in pharmaceutical market
-                        dynamics, territory strategy, and provider engagement. I specialize in translating product value
-                        into meaningful outcomes through needs-based conversations, strategic positioning, and access-aware execution.
+                        dynamics, territory strategy, and provider engagement. My background blends clinical exposure
+                        with an ability to translate product value into meaningful outcomes for prescribers and patients.
+                        I excel at identifying growth opportunities, strengthening provider relationships through
+                        needs-based conversations, and aligning solutions with formulary, access, and adherence
+                        challenges.
                     </li>
                 </ul>
             </div>
@@ -102,10 +90,12 @@
 <section class="education-content" id="education">
     <div class="container">
         <div class="row">
+
             <div class="education">
                 <h3 class="title">Education</h3>
                 <div class="timeline-box">
                     <div class="timeline">
+
                         <div class="timeline-item">
                             <div class="circle-dot"></div>
                             <h3 class="timeline-title">City University of New York</h3>
@@ -117,9 +107,11 @@
                                 Alumni Association & National Society of Leadership and Success
                             </h4>
                         </div>
+
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
@@ -129,27 +121,41 @@
     <div class="container">
         <div class="project-title">
             <h4>My Publications</h4>
-            <p>Insights at the intersection of patient access, strategy, and pharmaceutical innovation.</p>
+            <p>Discover my Publications</p>
         </div>
 
-        <div class="projects">
-            <div class="project">
+        <div class="projects" style="display:flex; gap:30px; align-items:flex-start;">
+
+            <!-- Publication 1 -->
+            <div class="project" style="flex:1;">
                 <i class="fa fa-pencil"></i>
-                <h4>When Pharmaceutical Samples Turn Into a Lifeline</h4>
+                <h4>
+                    When Pharmaceutical Samples Turn Into a Lifeline: How Patients Access, Collaborate,
+                    and Rely on Social Support to Overcome Gaps in HIV Medication
+                </h4>
                 <p>
-                    An analysis of how temporary access programs and coordinated support mitigate treatment gaps in HIV care,
-                    improving continuity and outcomes in underserved populations.
+                    With the assistance of scientific breakthroughs, HIV has been changed from a deadly disease to a
+                    chronic condition which is manageable. These innovations remain insufficient for individuals
+                    facing housing instability, insurance gaps, and administrative delays. Even brief interruptions
+                    in antiretroviral therapy are associated with viral rebound, worse clinical outcomes, and increased
+                    healthcare utilization. Temporary access to medication combined with coordinated social support
+                    can serve as a critical bridge to continuity of HIV care.
                 </p>
-                <div class="btn-group">
-                    <a href="publication.pdf" target="_blank" class="btn active">Read Publication</a>
+
+                <div class="btn-group" style="margin-top:15px;">
+                    <a href="publication.pdf" target="_blank" class="btn active">
+                        Read Publication
+                    </a>
                 </div>
             </div>
 
-            <div class="project">
+            <!-- Publication 2 -->
+            <div class="project" style="flex:1;">
                 <i class="fa fa-pencil"></i>
                 <h4>Publication 2</h4>
                 <p>In Progress :)</p>
             </div>
+
         </div>
     </div>
 </section>
@@ -162,20 +168,28 @@
             <p>Get In Touch</p>
         </div>
         <div class="contact">
-            <form>
-                <input type="text" placeholder="Name" required>
-                <input type="email" placeholder="Email" required>
-                <input type="text" placeholder="Subject">
-                <textarea placeholder="Message"></textarea>
+            <form name="submitToGoogleSheet">
+                <input type="text" name="NAME" placeholder="Name" required>
+                <input type="email" name="EMAIL" placeholder="Email" required>
+                <input type="text" name="SUBJECT" placeholder="Subject">
+                <textarea name="MESSAGE" placeholder="Message"></textarea>
                 <input type="submit" value="Send Message" class="submit">
             </form>
+            <span id="msg"></span>
         </div>
     </div>
 </section>
 
+<!-------------------------- JS -------------------------->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="script.js"></script>
+
+<!-------------------------- Footer -------------------------->
 <footer class="footer">
     <small class="message">Thanks for Visiting</small>
-    <small class="copyright">&copy; 2026 Ali Beiruti. All rights reserved.</small>
+    <small class="copyright">&copy; Copyright 2026. All rights reserved.</small>
 </footer>
 
 </body>
